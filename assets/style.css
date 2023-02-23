@@ -4,3 +4,7 @@ h1{
 .questionfont{
     font-size: 25px;
 }
+
+.hidden{
+    display: none;
+}

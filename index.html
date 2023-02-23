@@ -9,41 +9,26 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <div class="timer">
-
-    </div>
-    <!-- creating questions for the quiz -->
-    <div>
-        <h1>Q1. Commonly used data types to not include...</h1>
-        <input type="radio" name="question1"  id="">boolean
-        <input type="radio" name="question1"  id="">strings
-        <input type="radio" name="question1"  id="">arrays
-        <input type="radio" name="question1"  id="correct1">alerts
-    </div>
+    <div class="timer"></div>
+    <main>
+        <h1>JavaScript Quiz</h1>
+    </main>
 
     <div>
-        <h1>Q2. arrays hold values with an index starting from...</h1>
-        <input type="radio" name="question2" id="correct2">0
-        <input type="radio" name="question2" id="">1
-        <input type="radio" name="question2" id="">-3
-        <input type="radio" name="question2" id="">-0
+        <button type="button" id="quizStartButton">Start Quiz</button>
     </div>
 
-    <div>
-        <h1>Q3. javascript is a  </h1>
-        <input type="radio" name="question3" id="correct3">programming language
-        <input type="radio" name="question3" id="">mark down
-        <input type="radio" name="question3" id="">styling program
-        <input type="radio" name="question3" id="">mark up
+    <div id="questContainer" class="hidden">
+        <h1 id="questionText"></h1>
+        <div id="buttonBox"></div>
+        <button type="button" id="answer1"></button>
+        <button type="button" id="answer2"></button>
+        <button type="button" id="answer3"></button>
+        <button type="button" id="answer4"></button>
     </div>
+    
 
-    <div>
-        <h1>Q4. conditional statements must be enclosed in </h1>
-        <input type="radio" name="question4" id="">curly brackets
-        <input type="radio" name="question4" id="correct4">perenthesis
-        <input type="radio" name="question4" id="">angle brackets
-        <input type="radio" name="question4" id="">ampersands
-    </div>
+   
     <script src="./script.js"></script>
 </body>
 </html>
